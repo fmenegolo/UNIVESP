@@ -1,0 +1,9 @@
+// Meu primeiro programa JAVA
+// Esse código é a definição de uma CLASSE no contexto de Orientação a Objetos
+public class Teste // convenciona que o nome da classe é igual ao nome do programa que seria neste caso teste.java
+{
+    public static void public static void main(String[] args) //Metodo main ele é estático, recebe argumentos de entrada do usuario, desenvolver ou chamar funcões para expor entrada e saida 
+    {
+        System.out.println("É apenas um teste");    
+    }
+}

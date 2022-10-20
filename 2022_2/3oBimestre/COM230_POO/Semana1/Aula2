@@ -1,0 +1,63 @@
+Paradigmas de Programação/Introdução ao paradigma orientado a objetos: 
+Classes e Objetos/Frameworks de Desenvolvimento
+
+POO - Linguagem JAVA
+Desenvolvida Pela Sun Microsystems (Atual detentora é a ORACLE)
+Modelada no C++
+Usa Bytecodes
+
+- Processo de Compilação
+1. Editor codigo;
+2. Compilador;
+Divisão e organização de classes e bibliotecas;
+Maquina virtual JAVA;
+5.Executar o Programação.
+
+- ETAPA 1
+Desenvolvimento de código via editor.
+
+- ETAPA 2
+Compilação do programa JAVA em bytecodes;
+codename.java em codename.class;
+Podendo ser portáveis independente da plataforma.
+
+- ETAPA 3
+Java Virtual Machine(JVM) armazezena o programa na memória para sua execução;
+pega o arquivo ".class" e transfere para memoria principal
+
+- ETAPA 4
+Verifica os bytecodes
+
+- ETAPA 5
+bytecodes executado pela JVM (Just in Time);
+O JAVA HotSpot traduz os bytecodes para liguagem de máquina.
+a saída tem o mesmo resultado independente do S.O.
+
+- todo programa Java executa uma Thread.
+- instruções dentro de uma classe são agrupadas e um ou mais MÉTODOS.
+- Todo Programa JAVA tem que ter o método MAIN que é por onde começa a execução.
+- Palavas para se escrever são IDENTIFICADORES, que são chamadas de PALAVRAS RESERVADAS, tais não podem ser modificadas.
+- Palavras entre ASPAS ("") são STRINGS.
+- JAVA é Case Sensitive, ou seja Faz diferença de maiusculas e minuscula
+convenciona que o nome de uma classe comece com letra maiuscula e termine com minuscula.
+
+- JAVA possui formato em 3 plataformas:
+
+Java SE - Standard Edition
+Plataforma base que inclui ambiente de execução e bibliotecas mais comuns
+
+Java EE - Enterprise Edition
+aplicaçoes Corporativas e Internet
+
+Java ME - Micro Edition
+aplicaçõesd para dispositivos moveis e embarcados
+
+
+- JAVA precisa de dois componetes pare ser executado:
+JVM e conjunto de bibliotecas e classes.
+
+P - Dentre os componentes que fazem parte do processo de criação de um programa Java envolve compilação do código 
+(arquivo)) código fonte, o compilador, os arquivos de classes, as bibliotecas e a JVM (Java Virtual Machine).
+
+R - Um código Java escrito inicialmente no sistema operacional Linux pode ser executado facilmente 
+no sistema operacional Windows em razão de termos a JVM que cuida do processo de forma independente do SO.
